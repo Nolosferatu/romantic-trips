@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto | Amor & Destinos</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header>
+    <h1>Contacto</h1>
+    <p>Estamos para ayudarte a planear tu viaje perfecto</p>
+</header>
+
+<main class="categorias">
+    <h2>Información de contacto</h2>
+
+    <p><strong>📧 Correo:</strong> contacto@amorydestinos.com</p>
+    <p><strong>📞 Teléfono:</strong> +52 744 123 4567</p>
+    <p><strong>📍 Dirección:</strong> Av. del Amor No. 120,  
+       Col. Paraíso, Acapulco, Guerrero, México</p>
+    <p><strong>🕘 Horario:</strong> Lunes a Viernes de 9:00 a 18:00 hrs</p>
+
+    <a href="index.html" class="btn contacto">⬅ Volver al inicio</a>
+</main>
+
+<footer>
+    <p>© 2025 Amor & Destinos</p>
+</footer>
+
+</body>
+</html>
