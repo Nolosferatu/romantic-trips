@@ -106,4 +106,32 @@ footer {
         align-items: center;
     }
 }
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #1b1b1b, #2c2c2c);
+    color: white;
+}
+
+/* Contenedor de contenido */
+.categorias {
+    max-width: 800px;
+    margin: 60px auto;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+/* Texto de contacto */
+.categorias p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Header sin video */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: rgba(0, 0, 0, 0.6);
 
