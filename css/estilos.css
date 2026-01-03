@@ -45,3 +45,65 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.btn {
+    display: inline-block;
+    padding: 14px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Colores oficiales */
+.facebook {
+    background-color: #1877F2; /* Facebook */
+}
+
+.instagram {
+    background: linear-gradient(
+        45deg,
+        #f09433,
+        #e6683c,
+        #dc2743,
+        #cc2366,
+        #bc1888
+    );
+}
+
+/* Botón contacto */
+.contacto {
+    background-color: #25a18e;
+}
+
+/* Redes */
+.redes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .categorias {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .btn {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .redes {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
